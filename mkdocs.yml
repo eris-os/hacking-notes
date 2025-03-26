@@ -1,0 +1,100 @@
+site_name: NOTAS DE HACKING DE ERIS
+nav: 
+  - Inicio:
+    - 'Bienvenidos': 'index.md'
+    - RUTAS DE ESTUDIO:
+      - 'eJPT': 'ejpt.md'
+      - 'OSCP': 'oscp.md'
+      - 'CPTS': 'cpts.md'
+  - 'Redes':
+    - 'Introducción a las redes': 'redes.md'
+  - 'Enumeración de Servicios':
+    - 'Introducción a la enumeración': 'enumeration.md'
+    - 'SERVICIOS':
+      - 'Enumeración FTP': 'ftp-enum.md'
+      - 'Enumeración SMB': 'smb-enum.md'
+      - 'Enumeración NFS': 'nfs-enum.md'
+      - 'Enumeración DNS': 'dns-enum.md'
+      - 'Enumeración SMTP': 'smtp-enum.md'
+      - 'Enumeración IMAP/POP3': 'imap-pop3-enum.md'
+      - 'Enumeración SNMP': 'snmp-enum.md'
+      - 'Enumeración MySQL': 'mysql-enum.md'
+      - 'Enumeración MSSQL': 'mssql-enum.md'
+      - 'Enumeración Oracle TNS': 'oracle-tns-enum.md'
+      - 'Enumeración IPMI': 'ipmi-enum.md'
+
+  - 'Open-Source Intelligence (OSINT)':
+    - 'Introducción al OSINT': 'osint.md'
+  - 'Hacking Web':
+    - 'GENERAL':
+      - 'Introducción': 'hacking-web.md'
+      - 'Protocolo HTTP': 'http.md'
+    - 'FUZZING':
+      - 'Introducción al fuzzing': 'fuzzing.md'
+      - 'Fuzzing de directorios': 'directory-fuzzing.md'
+      - 'Fuzzing de extensiones de archivos': 'file-extension-fuzzing.md'
+      - 'Fuzzing de parámetros': 'parameter-fuzzing.md'
+      - 'Fuzzing de subdominios': 'subdomain-fuzzing.md'
+      - 'Fuzzing de vhosts': 'vhost-fuzzing.md'
+    - 'WEB PROXIES':
+      - 'Introducción a los proxies web': 'web-proxies.md'
+      - 'Burp Suite': 'burp-suite.md'
+      - 'Zed Attack Proxie (ZAP)': 'zap.md'
+    - 'CROSS-SITE SCRIPTING (XSS)':
+      - 'Introducción al XSS': 'xss.md'
+      - 'XSS Reflejado': 'reflected-xss.md'
+      - 'XSS Almacenado': 'stored-xss.md'
+      - 'XSS DOM': 'dom-xss.md' 
+  - 'Active Directory':
+    - 'Introducción al Active Directory (AD)': 'active-directory.md'
+  - 'Escalada de privilegios':
+    - 'Introducción a la escalada de privilegios': 'privilege-escalation.md'
+    - 'WINDOWS':
+      - 'Dnsadmins': 'dnsadmins-windows.md'
+    - 'LINUX':
+      - 'Abuso del PATH': 'path-abuse-linux.md'
+  - 'Reportes y documentación': 
+    - 'Introducción a los reportes y documentación': 'reporting.md'
+
+  
+  
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: es
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime 
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: http://github.com/eris-os
+    - icon: fontawesome/brands/discord
+      link: http://discord.gg/eris-os
+    - icon: fontawesome/brands/linkedin
+      link: http://linkedin.com/in/eris-os
+    - icon: fontawesome/brands/youtube
+      link: http://youtube.com/eris-os
+
+copyright: |
+  &copy; 2025 <a href="https://github.com/eris-os" target="_blank" rel="noopener">Eris Ortega</a>
