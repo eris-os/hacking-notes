@@ -44,7 +44,7 @@ nav:
       - 'Introducción al fuzzing': 'fuzzing.md'
       - 'Fuzzing de directorios': 'directory-fuzzing.md'
       - 'Fuzzing de extensiones de archivos': 'file-extension-fuzzing.md'
-      - 'Fuzzing de parámetros': 'parameter-fuzzing.md'
+      - 'Fuzzing de parámetros y valores': 'parameter-fuzzing.md'
       - 'Fuzzing de subdominios': 'subdomain-fuzzing.md'
       - 'Fuzzing de vhosts': 'vhost-fuzzing.md'
     - 'WEB PROXIES':
