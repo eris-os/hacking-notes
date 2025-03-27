@@ -1,71 +1,71 @@
 site_name: NOTAS DE HACKING DE ERIS
 nav:
   - Inicio:
-    - 'Bienvenidos': 'es/index.md'
+    - 'Bienvenidos': 'index.md'
     - RUTAS DE ESTUDIO:
-      - 'eJPT': 'es/ejpt.md'
-      - 'OSCP': 'es/oscp.md'
-      - 'CPTS': 'es/cpts.md'
+      - 'eJPT': 'ejpt.md'
+      - 'OSCP': 'oscp.md'
+      - 'CPTS': 'cpts.md'
   - 'Redes':
-    - 'Introducción a las redes': 'es/redes.md'
+    - 'Introducción a las redes': 'redes.md'
   - 'Enumeración de Servicios':
-    - 'Introducción a la enumeración': 'es/enumeration.md'
+    - 'Introducción a la enumeración': 'enumeration.md'
     - 'SERVICIOS':
-      - 'Enumeración FTP': 'es/ftp-enum.md'
-      - 'Enumeración SMB': 'es/smb-enum.md'
-      - 'Enumeración NFS': 'es/nfs-enum.md'
-      - 'Enumeración DNS': 'es/dns-enum.md'
-      - 'Enumeración SMTP': 'es/smtp-enum.md'
-      - 'Enumeración IMAP/POP3': 'es/imap-pop3-enum.md'
-      - 'Enumeración SNMP': 'es/snmp-enum.md'
-      - 'Enumeración MySQL': 'es/mysql-enum.md'
-      - 'Enumeración MSSQL': 'es/mssql-enum.md'
-      - 'Enumeración Oracle TNS': 'es/oracle-tns-enum.md'
-      - 'Enumeración IPMI': 'es/ipmi-enum.md'
+      - 'Enumeración FTP': 'ftp-enum.md'
+      - 'Enumeración SMB': 'smb-enum.md'
+      - 'Enumeración NFS': 'nfs-enum.md'
+      - 'Enumeración DNS': 'dns-enum.md'
+      - 'Enumeración SMTP': 'smtp-enum.md'
+      - 'Enumeración IMAP/POP3': 'imap-pop3-enum.md'
+      - 'Enumeración SNMP': 'snmp-enum.md'
+      - 'Enumeración MySQL': 'mysql-enum.md'
+      - 'Enumeración MSSQL': 'mssql-enum.md'
+      - 'Enumeración Oracle TNS': 'oracle-tns-enum.md'
+      - 'Enumeración IPMI': 'ipmi-enum.md'
 
   - 'Open-Source Intelligence (OSINT)':
-    - 'Introducción al OSINT': 'es/osint.md'
-    - 'Sock Puppets': 'es/sock-puppets.md'
+    - 'Introducción al OSINT': 'osint.md'
+    - 'Sock Puppets': 'sock-puppets.md'
     - 'OSINT DE IMAGENES':
-      - 'Ver datos de EXIF': 'es/exif-osint.md'
+      - 'Ver datos de EXIF': 'exif-osint.md'
     - 'OSINT DE REDES SOCIALES':
-      - 'Facebook': 'es/facebook-osint.md'
-      - 'Instagram': 'es/instagram-osint.md'
-      - 'LinkedIn': 'es/linkedin-osint.md'
-      - 'Reddit': 'es/reddit-osint.md'
-      - 'Snapchat': 'es/snapchat-osint.md'
-      - 'TikTok': 'es/tiktok-osint.md'
-      - 'Twitter': 'es/twitter-osint.md'
+      - 'Facebook': 'facebook-osint.md'
+      - 'Instagram': 'instagram-osint.md'
+      - 'LinkedIn': 'linkedin-osint.md'
+      - 'Reddit': 'reddit-osint.md'
+      - 'Snapchat': 'snapchat-osint.md'
+      - 'TikTok': 'tiktok-osint.md'
+      - 'Twitter': 'twitter-osint.md'
   - 'Hacking Web':
     - 'GENERAL':
-      - 'Introducción': 'es/hacking-web.md'
-      - 'Protocolo HTTP': 'es/http.md'
+      - 'Introducción': 'hacking-web.md'
+      - 'Protocolo HTTP': 'http.md'
     - 'FUZZING':
-      - 'Introducción al fuzzing': 'es/fuzzing.md'
-      - 'Fuzzing de directorios': 'es/directory-fuzzing.md'
-      - 'Fuzzing de extensiones de archivos': 'es/file-extension-fuzzing.md'
-      - 'Fuzzing de parámetros': 'es/parameter-fuzzing.md'
-      - 'Fuzzing de subdominios': 'es/subdomain-fuzzing.md'
-      - 'Fuzzing de vhosts': 'es/vhost-fuzzing.md'
+      - 'Introducción al fuzzing': 'fuzzing.md'
+      - 'Fuzzing de directorios': 'directory-fuzzing.md'
+      - 'Fuzzing de extensiones de archivos': 'file-extension-fuzzing.md'
+      - 'Fuzzing de parámetros': 'parameter-fuzzing.md'
+      - 'Fuzzing de subdominios': 'subdomain-fuzzing.md'
+      - 'Fuzzing de vhosts': 'vhost-fuzzing.md'
     - 'WEB PROXIES':
-      - 'Introducción a los proxies web': 'es/web-proxies.md'
-      - 'Burp Suite': 'es/burp-suite.md'
-      - 'Zed Attack Proxie (ZAP)': 'es/zap.md'
+      - 'Introducción a los proxies web': 'web-proxies.md'
+      - 'Burp Suite': 'burp-suite.md'
+      - 'Zed Attack Proxie (ZAP)': 'zap.md'
     - 'CROSS-SITE SCRIPTING (XSS)':
-      - 'Introducción al XSS': 'es/xss.md'
-      - 'XSS Reflejado': 'es/reflected-xss.md'
-      - 'XSS Almacenado': 'es/stored-xss.md'
-      - 'XSS DOM': 'es/dom-xss.md' 
+      - 'Introducción al XSS': 'xss.md'
+      - 'XSS Reflejado': 'reflected-xss.md'
+      - 'XSS Almacenado': 'stored-xss.md'
+      - 'XSS DOM': 'dom-xss.md' 
   - 'Active Directory':
-    - 'Introducción al Active Directory (AD)': 'es/active-directory.md'
+    - 'Introducción al Active Directory (AD)': 'active-directory.md'
   - 'Escalada de privilegios':
-    - 'Introducción a la escalada de privilegios': 'es/privilege-escalation.md'
+    - 'Introducción a la escalada de privilegios': 'privilege-escalation.md'
     - 'WINDOWS':
-      - 'Dnsadmins': 'es/dnsadmins-windows.md'
+      - 'Dnsadmins': 'dnsadmins-windows.md'
     - 'LINUX':
-      - 'Abuso del PATH': 'es/path-abuse-linux.md'
+      - 'Abuso del PATH': 'path-abuse-linux.md'
   - 'Reportes y documentación': 
-    - 'Introducción a los reportes y documentación': 'es/reporting.md'
+    - 'Introducción a los reportes y documentación': 'reporting.md'
 
 theme:
   name: material
