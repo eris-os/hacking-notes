@@ -1,5 +1,8 @@
 # FUZZING DE EXTENSIONES DE ARCHIVOS
 
+!!! tip "Wordlist adecuada para fuzzing de extensiones de archivos"
+    La wordlist de **seclists** llamada **web-extensions.txt** es una de las mejores para empezar este tipo de fuzzing.
+
 El **fuzzing de extensiones de archivos** es una técnica empleada para descubrir qué tipos de archivos existen en un servidor, mediante la generación de múltiples solicitudes que varían la extensión del archivo.
 
 Uno de los enfoques más comunes es realizar fuzzing sobre un nombre de archivo muy usado en aplicaciones web, como **index**. Por ejemplo, si el servidor utiliza el archivo index como entrada principal, es posible que existan variantes ocultas como **index.php**, **index.html**, etc.
