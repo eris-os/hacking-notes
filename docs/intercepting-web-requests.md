@@ -20,6 +20,9 @@ Ahora podemos ir al navegador/aplicación que tenemos configurado para el proxy 
 
 ![burp suite request view](assets/burp_suite_request_view.png)
 
+Modificamos lo que queramos de la petición y presionamos el botón **Forward** para que se envíe la petición modificada.
+
+![burp suite forward button](assets/burp_suite_forward_button.png)
 
 ## Interceptar peticiones web con ZAP
 !!! warning "Configuración previa del navegador/aplicación"
