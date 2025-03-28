@@ -47,10 +47,12 @@ nav:
       - 'Fuzzing de parámetros y valores': 'parameter-fuzzing.md'
       - 'Fuzzing de subdominios': 'subdomain-fuzzing.md'
       - 'Fuzzing de vhosts': 'vhost-fuzzing.md'
+      - 'Fuzzing de cookies': 'cookie-fuzzing.md'
     - 'WEB PROXIES':
       - 'Introducción a los web proxies': 'web-proxies.md'
       - 'Interceptar peticiones web': 'intercepting-web-requests.md'
       - 'Interceptar respuestas web': 'intercepting-web-responses.md'
+      - 'Escaneo web con ZAP': 'web-scanning.md'
     - 'CROSS-SITE SCRIPTING (XSS)':
       - 'Introducción al XSS': 'xss.md'
       - 'XSS Reflejado': 'reflected-xss.md'
