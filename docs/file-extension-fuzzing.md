@@ -29,5 +29,18 @@ ffuf -u http://TARGET_IP:PORT/NAMESEXT -w common_entry_names.txt:NAMES -w /usr/s
 !!! warning "Placeholder de la wordlist"
     Es importante no olvidar asignar un placeholder a las dos wordlists y posicionarlas en la URL de la manera adecuada.
 
+Cuando sepamos que tipos de archivos maneja el servidor, podemos usar el parámetro `-e` seguido de las extensiones de archivos para realizar una búsqueda específica de estos archivos.
+
+
+``` sh
+ffuf -u http://TARGET_IP:PORT/FUZZ -w /usr/share/seclists/Discovery/directory-list-2.3-medium.txt -e .php,.pdf,.txt,.phpx
+```
+
+Esto tomará una palabra de la wordlist y realizará la búsqueda de la palabra con las extensiones de archivos. Por ejemplo:
+
+* http://TARGET_IP:PORT/**home**
+* http://TARGET_IP:PORT/**home.php**
+* http://TARGET_IP:PORT/**home.pdf**
+* http://TARGET_IP:PORT/**home.txt**
 
 ## Fuzzing de extensiones de archivos con Gobuster
