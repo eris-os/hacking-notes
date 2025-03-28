@@ -48,9 +48,9 @@ nav:
       - 'Fuzzing de subdominios': 'subdomain-fuzzing.md'
       - 'Fuzzing de vhosts': 'vhost-fuzzing.md'
     - 'WEB PROXIES':
-      - 'Introducción a los proxies web': 'web-proxies.md'
-      - 'Burp Suite': 'burp-suite.md'
-      - 'Zed Attack Proxie (ZAP)': 'zap.md'
+      - 'Introducción a los web proxies': 'web-proxies.md'
+      - 'Interceptar peticiones web': 'intercepting-web-requests.md'
+      - 'Interceptar respuestas web': 'intercepting-web-responses.md'
     - 'CROSS-SITE SCRIPTING (XSS)':
       - 'Introducción al XSS': 'xss.md'
       - 'XSS Reflejado': 'reflected-xss.md'
