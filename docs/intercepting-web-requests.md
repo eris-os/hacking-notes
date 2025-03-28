@@ -12,13 +12,13 @@ Interceptar peticiones web consiste en capturar las solicitudes HTTP o HTTPS que
 
 Para interceptar las peticiones web en Burp Suite navegamos a la pestaña **Proxy > Intercept** y presionamos el botón de **Intercept on/off** asegurandonos que este en **on**.
 
-![burp suite intercept button](image.png)
+![burp suite intercept button](assets/burp_suite_intercept_button.png)
 
 Ahora podemos ir al navegador/aplicación que tenemos configurado para el proxy y empezar a interceptar peticiones.
 
-![alt text](image-2.png)
+![burp suite request](assets/burp_suite_get_request.png)
 
-![alt text](image-1.png)
+![burp suite request view](assets/burp_suite_request_view.png)
 
 
 ## Interceptar peticiones web con ZAP
